@@ -1,5 +1,4 @@
 const help = () => {
-    return <h1>help</h1>;
+    return <h1>Help</h1>;
   };
-  
-  export default help;
+export default help;
