@@ -29,7 +29,8 @@ const NavBar = () => (
       <div className='navbar__item'><Link to="/" style={styles.headerstyle}>Home</Link></div>
       <div className='navbar__item'><Link to="/About" style={styles.headerstyle} >About</Link></div>
       <div className='navbar__item'><Link to="/Contact" style={styles.headerstyle}>Contact</Link></div>
-      <div className='navbar__item'><Link to="/Help" style={styles.headerstyle}>Help</Link></div>        
+      <div className='navbar__item'><Link to="/Help" style={styles.headerstyle}>Help</Link></div>  
+      <div className='navbar__item'><Link to="/Blog" style={styles.headerstyle}>Blog</Link></div>         
   </header>
 );
 

@@ -51,6 +51,7 @@ export default class App extends Component{
     return (
       <ReactTable  
       data={this.state.users}  
+      pageSize={(this.state.users.length > 5) ? 5  : this.state.users.length}
       columns={columns}  
    />
     )
